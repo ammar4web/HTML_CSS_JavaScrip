@@ -72,7 +72,7 @@ randomBackEl.forEach((span) => {
 let landingPage = document.querySelector(".landing-page");
 
 // Get Array Of Amages
-let imgsArray = ["01.jpg", "02.jpg", "03.jpg", "04.jpg", "05.jpg"];
+let imgsArray = ["01.jpg", "02.jpg", "04.jpg", "05.jpg"];
 
 setInterval(() => {
   // Get Random Number

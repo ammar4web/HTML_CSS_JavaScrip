@@ -82,14 +82,14 @@ body {
 .settings-box .option-box .no {
   width: 50px;
   background-color: var(--main-color);
-  color: #FFF;
+  color: #fff;
   margin-top: 10px;
   display: inline-block;
   font-size: 12px;
   padding: 4px 10px;
   font-weight: bold;
   border-radius: 4px;
-  opacity: .5;
+  opacity: 0.5;
   cursor: pointer;
 }
 .settings-box .option-box span.active {
@@ -162,9 +162,11 @@ body {
 .introduction-text h1 span {
   color: var(--main-color);
 }
-.introduction-text p {
+.introduction-text h2 {
   line-height: 1.6;
-  font-size: 20px;
   margin: 0;
+}
+.introduction-text h2 a {
+  color: var(--main-color);
 }
 /* End Landing Page */
