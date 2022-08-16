@@ -1,5 +1,8 @@
 :root {
-  --main-color: #03A9F4;
+  --main-color: #03a9f4;
+}
+* {
+  box-sizing: border-box;
 }
 body {
   font-family: "Open Sans", sans-serif;

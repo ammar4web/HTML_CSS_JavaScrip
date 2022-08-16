@@ -4,6 +4,17 @@ let mainColors = localStorage.getItem("color_option");
 // If There's Color Item In Local Storage
 if (mainColors !== null) {
   document.documentElement.style.setProperty("--main-color", mainColors);
+
+  // Remove Active Class From All Colors List Item
+  document.querySelectorAll(".colors-list li").forEach((element) => {
+    element.classList.remove("active");
+
+    // Add Active Class On Element With Data-Color === Local Storage Item
+    if (element.dataset.color === mainColors) {
+      // Add Active Class
+      element.classList.add("active");
+    }
+  });
 }
 
 // Toggle Spin Class On Icon
